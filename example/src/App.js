@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import ExampleComponent from 'common-utils'
+import { isEmail } from "common-utils"
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        {isEmail("asepsetyawan9@gmail.com") ? "Valid Email" : "Invalid Email"}
       </div>
     )
   }

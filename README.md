@@ -15,12 +15,12 @@ npm install --save common-utils
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'common-utils'
+import { isEmail } from 'common-utils'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      {isEmail("asepsetyawan9@gmail.com") ? "Valid Email" : "Invalid Email"}
     )
   }
 }
