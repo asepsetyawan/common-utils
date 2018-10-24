@@ -2,7 +2,7 @@
 
 > Help build your app faster
 
-[![NPM](https://img.shields.io/npm/v/common-utils.svg)](https://www.npmjs.com/package/common-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@asepsetyawan/js-common-utils.svg)](https://www.npmjs.com/package/@asepsetyawan/js-common-utils) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
