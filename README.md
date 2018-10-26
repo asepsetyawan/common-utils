@@ -27,6 +27,16 @@ class Example extends Component {
 }
 ```
 
+## Utils
+
+| `Utils`          | Description                                                 |
+| ---------------- | ----------------------------------------------------------- |
+| `isEmail`        | Validate valid email, isEmail()                             |
+| `isNumber`       | Validate number isNumber()                                  |
+| `formatCurrency` | Format number as currency formatCurrency(2000) result 2.000 |
+| `isObject`       | Return boolean {'a': 'string'}                              |
+| `sum`            | return total number in array sum([10, 20])                  |
+
 ## License
 
 MIT © [asepsetyawan](https://github.com/asepsetyawan)

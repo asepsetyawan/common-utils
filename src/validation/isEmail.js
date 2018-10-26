@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * simple email validator
  * @name isEmail

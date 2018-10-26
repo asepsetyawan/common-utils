@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import { isEmail, isNumber, lsTest } from "common-utils"
+import { isEmail, isNumber, lsTest, isObject, sum } from "common-utils"
 
 export default class App extends Component {
   render() {
@@ -25,6 +25,18 @@ export default class App extends Component {
             <td>LocalStorage Check</td>
             <td>
               {lsTest() ? "Support LocalStorage" : "LocalStorage Not Supported"}
+            </td>
+          </tr>
+
+          <tr>
+            <td>isObject() </td>
+            <td>{isObject({ a: "b" }) ? "True" : "False"}</td>
+          </tr>
+
+          <tr>
+            <td>sum([10, 20]), sum(['10', '20'])</td>
+            <td>
+              {sum([10, 20])}, {sum(["10", "20"])}
             </td>
           </tr>
         </table>

@@ -1,3 +1,5 @@
+'use strict'
+
 /**
  * determiens whether `val` is a number.
  * @name isNumber
