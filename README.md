@@ -1,4 +1,4 @@
-# common-utils
+# js-common-utils
 
 > Help build your app faster
 
@@ -8,7 +8,7 @@
 ## Install
 
 ```bash
-npm install --save common-utils
+npm install --save @asepsetyawan/js-common-utils
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install --save common-utils
 ```jsx
 import React, { Component } from 'react'
 
-import { isEmail } from 'common-utils'
+import { isEmail } from '@asepsetyawan/js-common-utils'
 
 class Example extends Component {
   render () {
