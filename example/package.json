@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "@asepsetyawan/js-common-utils": "^1.0.1",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4"
